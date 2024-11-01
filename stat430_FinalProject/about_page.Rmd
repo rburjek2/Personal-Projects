@@ -1,0 +1,25 @@
+
+## Author
+
+- **Names:** Jonah Winter, Lily Olson, Jace Rice, RJ Burjek
+- **Emails:** jonahdw2@illinois.edu, lmolson4@illinois.edu, jacer2@illinois.edu, rburjek2@illinois.edu
+
+## Purpose
+
+This web application is geared towards analyzing and visualizing the discrepancies between MLB team batting and pitching statistics before, during, and after the steroid era (1994-2004). We will be taking into account the six years before and six years after this time period
+
+The data that you find in this application includes team batting and team pitching statistics from the years 1988 to 2010. Under the "Table" tab, the user is able to select a year, a team, a position (batter or pitcher), and a statistic. A table output then displays the top ten players on each team in that statistical category and displays a bar graph below depicting their comparative values.
+
+Under the next tab, "Steroid Era," is where further analysis can be found comparing team statistics before, during, and after the steroid era. The user is able to select a batting or a pitching statistic, and then a line graph is displayed showing the yearly MLB average in that given statistic.
+
+## Data
+
+The data used in this application comes from the "Lahman" R package. 
+
+It contains information about MLB players throughout history, the years they played, their annual salaries, some of their batting or pitching statistics in the seasons they played, and a few pieces of personal information as well, like their date of birth and hometown. It also contains information about teams, like their team name, the franchise they ultimately belong to, their yearly wins and losses, the years they existed and played an MLB season, and cumulative statistics from the players on the roster from that given year.
+
+## References
+
+- [Lahman: Sean 'Lahman' Baseball Database] (https://cran.r-project.org/web/packages/Lahman/index.html)
+
+
