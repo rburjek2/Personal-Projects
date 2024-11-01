@@ -1,0 +1,28 @@
+## Author
+
+- **Name:** RJ Burjek
+- **Email:** rburjek2@illinois.edu
+
+## Purpose
+
+This web application is geared towards analyzing and visualizing the yearly payrolls of MLB teams between the years of 1985 and 2016 and judges how effective those expenditures were when it came to winning games. It creates a scatter plot comparing a team's win percentage to their payroll in a given season, and it also creates a bar graph denoting how effective some teams' yearly spendings were in comparison to others.
+
+The data that you find in this application includes a mixture of player and team statistics throughout MLB history. It takes the annual salaries of every MLB player and calculates how much money a given baseball team spent on their players in a given season. Using that information, teams are viewed on a yearly basis and their total payrolls are compared to their win percentage from that season. The scatter plot with that data also includes horizontal and vertical axes with the average league win percentage and average league payroll, so the user is able to get a better visualization of which teams won or lost more games on average and also which teams payed more or less money on average.
+
+There is also a statistic that is derived called "Expenditure Effectiveness" that takes a team's win percentage compared to the league average, and it weights that value based on how much money a team spent on its players. In this model, teams are awarded more credit for winning games whilst spending less money, and they are penalized for losing more games on average even after spending more money than their competition.
+
+Users of this application are able to filter for a certain season between the years of 1985 and 2016 and adjust the plots in order to view teams based on their league or their division.
+
+Lastly, a table is included in with data from the year that is filtered for by the user. The table features each team's name, 3-letter code, games played, wins, losses, win percentage, payroll, and expenditure effectiveness. 
+
+## Data
+
+The data used in this application comes from the "Lahman" R package. 
+
+It contains information about MLB players throughout history, the years they played, their annual salaries, some of their batting or pitching statistics in the seasons they played, and a few pieces of personal information as well, like their date of birth and hometown. It also contains information about teams, like their team name, the franchise they ultimately belong to, their yearly wins and losses, the years they existed and played an MLB season, and cumulative statistics from the players on the roster from that given year.
+
+## References
+
+- [Lahman: Sean 'Lahman' Baseball Database] (https://cran.r-project.org/web/packages/Lahman/index.html)
+
+
